@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "item_tags": [
+                                    "fb.function_book"
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:fill_player_head",
+                            "entity": "this",
+                            "conditions": []
+                        }
+                    ],
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}

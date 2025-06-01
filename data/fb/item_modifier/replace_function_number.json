@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_custom_data",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "fb:"
+    },
+    "ops": [
+        {
+            "source": "_.function_number",
+            "target": "function_number",
+            "op": "replace"
+        }
+    ]
+}

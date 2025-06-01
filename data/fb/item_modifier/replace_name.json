@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "storage": "fb:",
+    "nbt": "_.function.name",
+    "color": "aqua"
+  }
+}
