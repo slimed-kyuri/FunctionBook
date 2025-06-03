@@ -14,6 +14,8 @@
 
 ## 使い方
 
+以下デフォルトのキー設定として説明します。
+
 1. **Function Stick と、 Function Book を入手します。**
 ```mcfunction
 /function #fb:give/stick
@@ -22,23 +24,23 @@
 /function #fb:give/book
 ```
 
-2. **Function Book にコマンドを書きます。**
+2. **Function Book の2ページ目以降にコマンドを書きます。**
 
 ![image](https://github.com/user-attachments/assets/787e4697-384b-44c0-ae13-2543a29d4d53)
 
-3. **Function Stick を手に持ち、スプリントとスニークをした状態で右クリック(Ctrl + Shift + 右クリ)をして設定を更新します。**
-4. **Function Stick を手に持ち、右クリックをすると設定したコマンドが実行されます。**
+3. **Function Stick を手に持ち、 [Ctrl+Shift+右クリック] で設定を更新します。**
+4. **Function Stick を手に持ち、右クリック をすると設定したコマンドが実行されます。**
 
-### その他
+- **本に2ページ以上記入すると、Function Stick を [Ctrl+Shift+右クリック] でページ毎に設定した内容を切り替えることができます。**
+- **Function Stick を持って切り替える際に、上側を向くと次のページへ、下側を向くと前のページへ内容が切り替わります。**
+- **Function Book を複数作成すると、開いて完了を押した方が Function Stick を更新した際に適用されます。**
 
-- ページを変えて設定すると、Function Stick をスプリントとスニークをした状態で右クリック(Ctrl + Shift + 右クリ)でページ毎に設定した内容を切り替えることができます。
-- Function Stick を持ち、切り替える際に上側を向くと次のページへ、下側を向くと前のページへ内容が切り替わります。
-- 行の先頭に`/`から始まる本のコマンドを書くことでいくつかの機能が使えます。
-- Function Book を複数作成すると、開いて完了を押した方が Function Stick を更新した際に適用されます。
+### その他のコマンド
 - `/function #fb:help` でこのページを開くことができます。
+- `/function #fb:version` でバージョンを確認できます。
 - `/function #fb:uninstall` でアンインストールできます。
 
-### 本の中で使用可能なコマンド
+### Function Book 内で使用可能なコマンド
 `/name <text>`: このFunction Stick の名前を設定できます。
 
 `/sneak <command>`: スニーク中に右クリック(Shift + 右クリ)をした時に実行されるコマンドを設定できます。
@@ -47,9 +49,9 @@
 
 
 ## ダウンロード
-右の[Releases](https://github.com/slimed-kyuri/FunctionBook/releases)から**FunctionBook**(データパック)をダウンロードできます。
+[Releases](https://github.com/slimed-kyuri/FunctionBook/releases)から**FunctionBook**(データパック)をダウンロードできます。
 
-ダウンロードしたデータパックはワールドのdatapackフォルダの中に入れ、`/reload`をすると読み込まれます。
+ダウンロードしたデータパックは解凍し、ワールドのdatapackフォルダの中に入れて`/reload`を実行すると読み込まれます。
 
 ## 依存ライブラリ
 本データパックは単体で使用することができます。
