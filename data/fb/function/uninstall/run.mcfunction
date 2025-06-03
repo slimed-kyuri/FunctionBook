@@ -12,5 +12,5 @@ scoreboard objectives remove fb.right_click
 data remove storage fb: _
 
 
-tellraw @s [{"text": "[fb] ", "color": "yellow"}, {"text": "アンインストールが完了しました。", "color": "green"}]
-tellraw @s [{"text": "[fb] ", "color": "yellow"}, {"text": "/datapack enable <name>" ,"color": "gray"}, {"text": " で再インストールできます。", "color": "green"}]
+tellraw @s [{"text": "[fb] ", "color": "green"}, {"text": "アンインストールが完了しました。", "color": "yellow"}]
+tellraw @s [{"text": "[fb] ", "color": "green"}, {"text": "/datapack enable <name>" ,"color": "gray"}, {"text": " で再インストールできます。", "color": "yellow"}]
