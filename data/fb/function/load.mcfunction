@@ -7,6 +7,7 @@ scoreboard objectives add fb.number dummy
 
 # storage
 # データパックの名前
-data modify storage fb: _.datapack_name set value "FunctionBookDP-v1.0"
+data modify storage fb: _.datapack_name set value "FunctionBook"
+data modify storage fb: _.datapack_version set value "v1.1"
 # raw状態での改行コード(\nで取得できないやつ)を取得
 execute unless data storage fb: _.line_code run function fb:utils/get_line_code/_

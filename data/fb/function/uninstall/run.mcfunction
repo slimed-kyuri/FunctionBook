@@ -2,7 +2,7 @@
 ## アンインストール
 
 # データパックを無効化
-function fb:uninstall/disable_datapack with storage fb: _
+datapack disable "file/FunctionBook"
 
 # scoreboard
 scoreboard objectives remove fb.number
