@@ -9,7 +9,7 @@ scoreboard objectives add fb.number dummy
 # storage
 # データパックの名前
 data modify storage fb: _.datapack_name set value "FunctionBook"
-data modify storage fb: _.datapack_version set value "MC1.21.5-v1.1.0"
+data modify storage fb: _.datapack_version set value "MC1.21.6-v1.2.0"
 data modify storage fb: _.line_code set value "\n"
 
 # text
