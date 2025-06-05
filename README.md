@@ -1,5 +1,5 @@
 # FunctionBook
-![Minecraft version](https://img.shields.io/badge/MC-1.21.4%20--%201.21.6-blue.svg)
+![Minecraft version](https://img.shields.io/badge/MC-1.21.4%20--%201.21.5-blue.svg)
 
 本にコマンドを書くと、棒で実行できるようになります。
 
