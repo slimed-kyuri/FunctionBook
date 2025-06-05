@@ -1,5 +1,5 @@
 # FunctionBook
-![Minecraft version](https://img.shields.io/badge/MC-1.21.4%20--%201.21.5-blue.svg)
+![Minecraft version](https://img.shields.io/badge/MC-1.21.4%20--%201.21.6-blue.svg)
 
 本にコマンドを書くと、棒で実行できるようになります。
 
@@ -47,7 +47,10 @@
 
 
 ## ダウンロード
-[Releases](https://github.com/slimed-kyuri/FunctionBook/releases)からバージョンにあった**FunctionBook**(データパック)をダウンロードできます。
+
+**MC1.21.4** - [ダウンロード](https://github.com/slimed-kyuri/FunctionBook/releases/download/v1.0.1/FunctionBook.zip)
+
+**MC1.21.5** - [ダウンロード](https://github.com/slimed-kyuri/FunctionBook/releases/download/v1.1.0/FunctionBook.zip)
 
 ダウンロードしたデータパックは解凍し、ワールドのdatapackフォルダの中に入れて`/reload`を実行すると読み込まれます。
 
