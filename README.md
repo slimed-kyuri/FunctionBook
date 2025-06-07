@@ -39,7 +39,7 @@
 - `/function #fb:uninstall` でアンインストールできます。
 
 ### Function Book 内で使用可能なコマンド
-`/name <text>`: このFunction Stick の名前を設定できます。
+`/name <text>`: そのページに対応した Function Stick の名前を設定できます。
 
 `/sneak <command>`: [Shift+右クリック] をした時に実行されるコマンドを設定できます。
 
